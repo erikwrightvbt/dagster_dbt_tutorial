@@ -1,0 +1,9 @@
+tmp*
+.direnv
+.venv
+uv.lock
+
+target/
+dbt_modules/
+logs/
+**/.DS_Store
