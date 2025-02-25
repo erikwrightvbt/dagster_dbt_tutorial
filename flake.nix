@@ -37,7 +37,8 @@
             else
               uv venv
               source .venv/bin/activate
-              uv add dagster dagster-duckdb dagster-dbt dagster-webserver dagster-webserver dbt-core dbt-duckdb pandas pytest setuptools
+              uv add dagster duckdb dagster-duckdb dagster-dbt dbt-core dbt-duckdb dagster-webserver dagster-webserver 
+              uv add pyarrow plotly pandas pytest setuptools
               uv lock
             fi
           '';

@@ -1,0 +1,17 @@
+Metadata-Version: 2.2
+Name: dagster_dbt_tutorial
+Version: 0.0.1
+Summary: Dagster dbt tutorial
+Requires-Python: >=3.12
+Requires-Dist: dagster>=1.10.1
+Requires-Dist: dagster-dbt>=0.26.2
+Requires-Dist: dagster-duckdb>=0.26.1
+Requires-Dist: dagster-webserver>=1.10.1
+Requires-Dist: dbt-core>=1.9.2
+Requires-Dist: dbt-duckdb>=1.9.2
+Requires-Dist: duckdb>=1.2.0
+Requires-Dist: pandas>=2.2.3
+Requires-Dist: plotly>=6.0.0
+Requires-Dist: pyarrow>=19.0.1
+Requires-Dist: pytest>=8.3.4
+Requires-Dist: setuptools>=75.8.0
